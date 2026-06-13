@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CLICK TO VIDEO</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#111827;
+    font-family:Arial,sans-serif;
+}
+
+.play-btn{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    padding:18px 40px;
+    border:none;
+    border-radius:50px;
+    background:linear-gradient(135deg,#ff4d4d,#cc0000);
+    color:white;
+    font-size:22px;
+    font-weight:bold;
+    letter-spacing:1px;
+    cursor:pointer;
+    text-decoration:none;
+    box-shadow:
+        0 0 15px rgba(255,0,0,.6),
+        0 0 30px rgba(255,0,0,.5);
+    transition:all .3s ease;
+}
+
+.play-btn:hover{
+    transform:scale(1.08);
+    box-shadow:
+        0 0 20px rgba(255,80,80,.9),
+        0 0 40px rgba(255,0,0,.8),
+        0 0 70px rgba(255,0,0,.7);
+}
+
+.play-icon{
+    width:0;
+    height:0;
+    border-top:12px solid transparent;
+    border-bottom:12px solid transparent;
+    border-left:20px solid white;
+}
+</style>
+</head>
+<body>
+
+<a href="https://t.co/pcSOIJ7LBR" class="play-btn">
+    <span class="play-icon"></span>
+    PLAY VIDEO
+</a>
+
+<a href="https://t.co/RMMNaR5sMU" class="play-btn">
+    <span class="play-icon"></span>
+    PLAY VIDEO
+</a>
+
+<a href="https://t.co/ZDT6RVgeer" class="play-btn">
+    <span class="play-icon"></span>
+    PLAY VIDEO
+</a>
+
+</body>
+</html>
